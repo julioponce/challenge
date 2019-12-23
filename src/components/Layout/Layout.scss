@@ -1,0 +1,14 @@
+.layout {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('~static/img/background_stormtrooper.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  .view-wrapper {
+    display: block;
+  }
+}

@@ -1,0 +1,25 @@
+.species {
+
+  .filters {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 180px 0;
+  }
+
+  &.small {
+
+    .filters {
+      margin: 0 0 80px 0;
+    }
+  }
+
+  &.medium {
+
+    .filters {
+      margin: 0 0 130px 0;
+    }
+  }
+}

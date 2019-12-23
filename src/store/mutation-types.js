@@ -1,0 +1,15 @@
+export const SET_PEOPLE_LOADING = 'setPeopleLoading'
+export const SET_PEOPLE_SUCCESS = 'setPeopleSuccess'
+export const SET_PEOPLE_FAILURE = 'setPeopleFailure'
+export const SET_PEOPLE_PAGE = 'setPeoplePage'
+export const SET_PEOPLE_SORTER = 'setPeopleSorter'
+export const SET_PEOPLE_FILTER = 'setPeopleFilter'
+
+export const SET_SPECIES_LOADING = 'setSpeciesLoading'
+export const SET_SPECIES_SUCCESS = 'setSpeciesSuccess'
+export const SET_SPECIES_FAILURE = 'setSpeciesFailure'
+export const SET_SPECIES_PAGE = 'setSpeciesPage'
+export const SET_SPECIES_SORTER = 'setSpeciesSorter'
+export const SET_SPECIES_FILTER = 'setSpeciesFilter'
+
+export const SET_CHARACTER_FILMS = 'setCharacterFilms'

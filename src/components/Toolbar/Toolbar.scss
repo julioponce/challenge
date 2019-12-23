@@ -1,0 +1,65 @@
+.toolbar {
+  width: 100%;
+  margin: 0;
+  padding: 80px 0 100px 0;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    .link {
+      color: #898994;
+      padding: 0 2% 0 0;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 250ms ease;
+
+      &:hover {
+        color: #99999D;
+      }
+
+      &.active {
+        color: $theme-primary-text-color;
+      }
+
+      &:last-child {
+        padding: 0;
+      }
+    }
+  }
+
+  &.small {
+    padding: 40px 0 50px 0;
+
+    nav {
+      .link {
+        padding: 0 20px 0 0;
+        font-size: 0.75rem;
+        font-weight: 400;
+
+        &:last-child {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  &.medium {
+    padding: 60px 0 70px 0;
+
+    nav {
+      .link {
+        padding: 0 2% 0 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+
+        &:last-child {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

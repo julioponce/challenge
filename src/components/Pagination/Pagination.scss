@@ -1,0 +1,62 @@
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  .controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+
+    .button {
+      min-height: auto;
+      margin: 0 30px;
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 0;
+
+      &:disabled {
+        color: #898994;
+      }
+    }
+  }
+
+  .current {
+    font-size: 1.125rem;
+  }
+
+  &.small {
+    
+    .controls {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      font-size: 0.8rem;
+      margin: 0 15px;
+    }
+
+    .current {
+      font-size: 0.625rem;
+    }
+  }
+
+  &.medium {
+    
+    .controls {
+      margin-bottom: 30px;
+    }
+
+    .button {
+      font-size: 1.185rem;
+      margin: 0 20px;
+    }
+
+    .current {
+      font-size: 0.875rem;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.tooltip {
+  width: 130%;
+  position: absolute;
+  left: -15%;
+  top: -40px;
+  background-color: $theme-primary-color;
+  padding: 20px 25px;
+  @include elevation(4);
+
+  .heading {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .content {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  &.small {
+    padding: 10px 10px;
+
+    .heading {
+      margin-bottom: 5px;
+    }
+
+    .heading,
+    .content {
+      font-size: 0.6rem;
+      line-height: 0.725rem;
+    }
+  }
+
+  &.medium {
+    padding: 15px 20px;
+
+    .heading {
+      margin-bottom: 8px;
+    }
+
+    .heading,
+    .content {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+  }
+}
